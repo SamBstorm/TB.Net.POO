@@ -21,9 +21,9 @@ namespace TB.Net.POO.Indexeurs
             get
             {
                 Card c = null;
-                foreach(Card card in _cards)
+                for(int i = 0;i < _cards.Count && c is null; i++)
                 {
-                    if (card.Color == color && card.Value == value) c = card;
+                    if (_cards[i].Color == color && _cards[i].Value == value) c = _cards[i];
                 }
                 _cards.Remove(c);
                 return c;
