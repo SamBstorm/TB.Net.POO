@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TB.Net.POO.Encaps", "TB.Net
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TB.Net.POO.Properties", "TB.Net.POO.Properties\TB.Net.POO.Properties.csproj", "{09800B02-4615-4B28-84FD-E52DED4AE97A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TB.Net.POO.Indexeurs", "TB.Net.POO.Indexeurs\TB.Net.POO.Indexeurs.csproj", "{F41A30F1-178A-4F84-AEAF-502FE25061B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{09800B02-4615-4B28-84FD-E52DED4AE97A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09800B02-4615-4B28-84FD-E52DED4AE97A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09800B02-4615-4B28-84FD-E52DED4AE97A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F41A30F1-178A-4F84-AEAF-502FE25061B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F41A30F1-178A-4F84-AEAF-502FE25061B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F41A30F1-178A-4F84-AEAF-502FE25061B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F41A30F1-178A-4F84-AEAF-502FE25061B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
