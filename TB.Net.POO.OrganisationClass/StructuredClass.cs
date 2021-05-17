@@ -37,6 +37,9 @@ namespace TB.Net.POO.OrganisationClass
         #region Méthode override
 
         #endregion
+        #region Surcharge opérateur
+
+        #endregion
         #endregion
     }
 }
