@@ -8,7 +8,7 @@ namespace TB.Net.POO.Encaps
         {
             Console.WriteLine("Hello World!");
             Login l = new Login { username = "Samuel"};
-            l.SetPassword("test1234=");
+            l.Password="test1234=";
             Console.WriteLine(  l.username);
             Console.WriteLine(l.CheckPassword("toto"));
         }
@@ -19,9 +19,10 @@ namespace TB.Net.POO.Encaps
         public string username;
         private string _password;
 
-        public void SetPassword(string motDePasse)
+        public string Password
         {
-            _password = motDePasse;
+            private get { return _password; }
+            set { _password = value; }
         }
 
         public bool CheckPassword(string motDePasse)

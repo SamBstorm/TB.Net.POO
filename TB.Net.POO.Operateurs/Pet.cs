@@ -8,6 +8,7 @@ namespace TB.Net.POO.Operateurs
     {
         private string _nom;
         private ushort _isHungry;
+        private ushort _isHappy;
 
         public string Nom
         {
@@ -26,7 +27,8 @@ namespace TB.Net.POO.Operateurs
 
         public void Wait()
         {
-            _isHungry+=20;
+            _isHungry += 20;
+            _isHappy -= 10;
         }
 
         public void Eat(Meal meal)
