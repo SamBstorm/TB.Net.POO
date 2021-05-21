@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TB.Net.POO.Ctors_02", "TB.N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TB.Net.POO.Disposable", "TB.Net.POO.Disposable\TB.Net.POO.Disposable.csproj", "{EA49B57F-F1C1-4E8B-B35A-6953BC19B544}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TB.Net.POO.TryCatchFinally", "TB.Net.POO.TryCatchFinally\TB.Net.POO.TryCatchFinally.csproj", "{F928C388-62A7-4119-A535-7859074D6825}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TB.Net.POO.Exceptions", "TB.Net.POO.Exception\TB.Net.POO.Exceptions.csproj", "{05E5E033-DDFC-471E-B01C-1E373B0D55AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{EA49B57F-F1C1-4E8B-B35A-6953BC19B544}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA49B57F-F1C1-4E8B-B35A-6953BC19B544}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA49B57F-F1C1-4E8B-B35A-6953BC19B544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F928C388-62A7-4119-A535-7859074D6825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F928C388-62A7-4119-A535-7859074D6825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F928C388-62A7-4119-A535-7859074D6825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F928C388-62A7-4119-A535-7859074D6825}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05E5E033-DDFC-471E-B01C-1E373B0D55AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E5E033-DDFC-471E-B01C-1E373B0D55AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E5E033-DDFC-471E-B01C-1E373B0D55AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E5E033-DDFC-471E-B01C-1E373B0D55AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
