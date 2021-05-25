@@ -25,18 +25,30 @@ namespace TB.Net.POO.Delegues
             //}
             //mo.Program(); 
             #endregion
-            CompactDisc CD = new CompactDisc(0, 120, 240, 360, 480, 600, 720, 840, 960, 1080, 1200);
-            CompactDiscPlayer player = new CompactDiscPlayer();
-            player.CurrentDisk = CD;
+            #region Lecteur CD
+            //CompactDisc CD = new CompactDisc(0, 120, 240, 360, 480, 600, 720, 840, 960, 1080, 1200);
+            //CompactDiscPlayer player = new CompactDiscPlayer();
+            //player.CurrentDisk = CD;
 
-            player.AddTrack(player.SelectTrack(3));
-            player.AddTrack(player.SelectTrack(3));
-            player.AddTrack(player.SelectTrack(5));
-            player.AddTrack(player.SelectTrack(7));
-            player.AddTrack(player.SelectTrack(2));
-            player.AddTrack(player.SelectTrack(1));
+            //player.AddTrack(player.SelectTrack(3));
+            //player.AddTrack(player.SelectTrack(3));
+            //player.AddTrack(player.SelectTrack(5));
+            //player.AddTrack(player.SelectTrack(7));
+            //player.AddTrack(player.SelectTrack(2));
+            //player.AddTrack(player.SelectTrack(1));
 
-            player.Play();
+            //player.Play(); 
+            #endregion
+
+            #region IDE avec plug-in
+            VisualStudioCode vsc = new VisualStudioCode(
+                new VisualStudioCodeExtension { Name ="C# easy refactoring"},
+                new VisualStudioCodeExtension { Name ="C# compilator"},
+                new VisualStudioCodeExtension { Name ="JS debugger"},
+                new VisualStudioCodeExtension { Name ="Angular debugger"},
+                new VisualStudioCodeExtension { Name ="Launch in browser"}
+                );
+            #endregion
         }
     }
 }
