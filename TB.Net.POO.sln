@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TB.Net.POO.TryCatchFinally"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TB.Net.POO.Exceptions", "TB.Net.POO.Exception\TB.Net.POO.Exceptions.csproj", "{05E5E033-DDFC-471E-B01C-1E373B0D55AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TB.Net.POO.Delegues", "TB.Net.POO.Delegues\TB.Net.POO.Delegues.csproj", "{98F95F97-87BC-47BB-A3D1-3C0D23EE90CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{05E5E033-DDFC-471E-B01C-1E373B0D55AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05E5E033-DDFC-471E-B01C-1E373B0D55AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05E5E033-DDFC-471E-B01C-1E373B0D55AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98F95F97-87BC-47BB-A3D1-3C0D23EE90CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F95F97-87BC-47BB-A3D1-3C0D23EE90CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F95F97-87BC-47BB-A3D1-3C0D23EE90CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F95F97-87BC-47BB-A3D1-3C0D23EE90CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
