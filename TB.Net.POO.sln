@@ -19,21 +19,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TB.Net.POO.Operateurs", "TB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TB.Net.POO.Heritage", "TB.Net.POO.Heritage\TB.Net.POO.Heritage.csproj", "{D11A8086-25BD-48AC-AC20-697D3FC2B6B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TB.Net.POO.Statique", "TB.Net.POO.Statique\TB.Net.POO.Statique.csproj", "{A2DF07C3-7AF0-4568-AC00-DA16230FEBAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TB.Net.POO.Statique", "TB.Net.POO.Statique\TB.Net.POO.Statique.csproj", "{A2DF07C3-7AF0-4568-AC00-DA16230FEBAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TB.Net.POO.Interfaces", "TB.Net.POO.Interfaces\TB.Net.POO.Interfaces.csproj", "{D27291D8-4DFB-4EAD-9318-66679135050A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TB.Net.POO.Interfaces", "TB.Net.POO.Interfaces\TB.Net.POO.Interfaces.csproj", "{D27291D8-4DFB-4EAD-9318-66679135050A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TB.Net.POO.Ctors_01", "TB.Net.POO.Ctors_01\TB.Net.POO.Ctors_01.csproj", "{CEBB3147-A746-4EAD-8803-0FDB1CCF7376}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TB.Net.POO.Ctors_01", "TB.Net.POO.Ctors_01\TB.Net.POO.Ctors_01.csproj", "{CEBB3147-A746-4EAD-8803-0FDB1CCF7376}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TB.Net.POO.Ctors_02", "TB.Net.POO.Ctors_02\TB.Net.POO.Ctors_02.csproj", "{871CF209-E4A4-443E-88A9-53C5B3C09141}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TB.Net.POO.Ctors_02", "TB.Net.POO.Ctors_02\TB.Net.POO.Ctors_02.csproj", "{871CF209-E4A4-443E-88A9-53C5B3C09141}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TB.Net.POO.Disposable", "TB.Net.POO.Disposable\TB.Net.POO.Disposable.csproj", "{EA49B57F-F1C1-4E8B-B35A-6953BC19B544}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TB.Net.POO.Disposable", "TB.Net.POO.Disposable\TB.Net.POO.Disposable.csproj", "{EA49B57F-F1C1-4E8B-B35A-6953BC19B544}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TB.Net.POO.TryCatchFinally", "TB.Net.POO.TryCatchFinally\TB.Net.POO.TryCatchFinally.csproj", "{F928C388-62A7-4119-A535-7859074D6825}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TB.Net.POO.TryCatchFinally", "TB.Net.POO.TryCatchFinally\TB.Net.POO.TryCatchFinally.csproj", "{F928C388-62A7-4119-A535-7859074D6825}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TB.Net.POO.Exceptions", "TB.Net.POO.Exception\TB.Net.POO.Exceptions.csproj", "{05E5E033-DDFC-471E-B01C-1E373B0D55AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TB.Net.POO.Exceptions", "TB.Net.POO.Exception\TB.Net.POO.Exceptions.csproj", "{05E5E033-DDFC-471E-B01C-1E373B0D55AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TB.Net.POO.Delegues", "TB.Net.POO.Delegues\TB.Net.POO.Delegues.csproj", "{98F95F97-87BC-47BB-A3D1-3C0D23EE90CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TB.Net.POO.Delegues", "TB.Net.POO.Delegues\TB.Net.POO.Delegues.csproj", "{98F95F97-87BC-47BB-A3D1-3C0D23EE90CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TB.Net.POO.Genericite", "TB.Net.POO.Genericite\TB.Net.POO.Genericite.csproj", "{F4A3A5C2-8F14-4666-ACB2-1EF0E78EB4E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{98F95F97-87BC-47BB-A3D1-3C0D23EE90CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98F95F97-87BC-47BB-A3D1-3C0D23EE90CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98F95F97-87BC-47BB-A3D1-3C0D23EE90CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4A3A5C2-8F14-4666-ACB2-1EF0E78EB4E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4A3A5C2-8F14-4666-ACB2-1EF0E78EB4E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4A3A5C2-8F14-4666-ACB2-1EF0E78EB4E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4A3A5C2-8F14-4666-ACB2-1EF0E78EB4E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
