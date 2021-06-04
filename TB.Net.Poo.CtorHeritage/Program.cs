@@ -32,11 +32,11 @@ namespace TB.Net.Poo.CtorHeritage
                     Console.WriteLine($"J'ai un nombre de rayures de {pc.nbRayure}"); 
                 }
 
-                switch (poisson)
-                {
-                    case PoissonClown p_c:
-                        break;
-                }
+                //switch (poisson)
+                //{
+                //    case PoissonClown p_c:
+                //        break;
+                //}
             }
         }
     }
